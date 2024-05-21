@@ -39,4 +39,7 @@ async function getHistoriesHandler(_request, h) {
     return response;
 }
 
-module.exports = {postPredictHandler, getHistoriesHandler};
+module.exports = {
+    postPredictHandler,
+    getHistoriesHandler
+};
